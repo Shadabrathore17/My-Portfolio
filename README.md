@@ -30,10 +30,10 @@ Hi, I’m **Shadab Rathore**, a passionate **Computer Science and Engineering st
 
 ### **Contact Me** 📫
 Let’s connect and collaborate!  
-- **Email**:btechgamma@gmail.com
-- **LinkedIn**:https://www.linkedin.com/in/shadab-rathore-79b267291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-- **GitHub**:https://github.com/Shadabrathore17
-- **Instagram**:shadab_rathod
+- **Email**:      btechgamma@gmail.com
+- **LinkedIn**:   https://www.linkedin.com/in/shadab-rathore-79b267291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- **GitHub**:     https://github.com/Shadabrathore17
+- **Instagram**:  shadab_rathod
 
 ---
 
