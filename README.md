@@ -34,6 +34,7 @@ Let’s connect and collaborate!
 - **LinkedIn**:   https://www.linkedin.com/in/shadab-rathore-79b267291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 - **GitHub**:     https://github.com/Shadabrathore17
 - **Instagram**:  shadab_rathod
+- **RESUME**:     https://shadab1122.tiiny.site
 
 ---
 
