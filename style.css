@@ -249,12 +249,6 @@ span {
     display: flex;
 }
 
-/* Weather Project Text */
-.portfolio-box.weather-app .portfolio-layer h4,
-.portfolio-box.weather-app .portfolio-layer p {
-    color: var(--light-white);
-}
-
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
@@ -279,6 +273,13 @@ span {
     padding: 0 4rem;
     transform: translateY(100%);
     transition: .5s ease;
+}
+
+/* ✅ CHANGED PORTFOLIO BOX TEXT COLOR TO LIGHT WHITE */
+.portfolio-box .portfolio-layer h4,
+.portfolio-box .portfolio-layer p,
+.portfolio-box .portfolio-layer a i {
+    color: var(--light-white);
 }
 
 .portfolio-box:hover .portfolio-layer {
@@ -306,7 +307,6 @@ span {
 
 .portfolio-layer a i {
     font-size: 2rem;
-    color: var(--second-bg-color);
 }
 
 .contact h2 {
@@ -486,5 +486,16 @@ span {
     .footer-text {
         text-align: center;
         margin-bottom: 1rem;
+    }
+}
+@media (max-width: 320px) {
+    .home-content h1 {
+        font-size: 4.5rem;
+    }
+    .home-content h3 {
+        font-size: 2.4rem;
+    }
+    .home-img img {
+        width: 100vw;
     }
 }
