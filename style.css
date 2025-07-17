@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,14 +8,16 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins' , sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
+    --bg-color: #fdf6f6;
+    --second-bg-color: #ffffff;
+    --text-color: #2c3e50;
+    --main-color: #ff4b5c;
+    --main-solid: #ff4b5c;
+    --light-white: #fefefe;
 }
 
 html {
@@ -87,15 +89,9 @@ section {
 }
 
 @keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-2.4rem);
-    }
-    100% {
-        transform: translateY(0);
-    }
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-2.4rem); }
+    100% { transform: translateY(0); }
 }
 
 .home-content h3 {
@@ -103,7 +99,7 @@ section {
     font-weight: 700;
 }
 
-.home-content h3:nth-of-type(2){
+.home-content h3:nth-of-type(2) {
     margin-bottom: 2rem;
 }
 
@@ -190,7 +186,7 @@ span {
 }
 
 .services h2 {
-    margin-bottom :5rem;
+    margin-bottom: 5rem;
 }
 
 .services-container {
@@ -253,12 +249,18 @@ span {
     display: flex;
 }
 
+/* Weather Project Text */
+.portfolio-box.weather-app .portfolio-layer h4,
+.portfolio-box.weather-app .portfolio-layer p {
+    color: var(--light-white);
+}
+
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
 }
 
-.portfolio-box:hover img{
+.portfolio-box:hover img {
     transform: scale(1.1);
 }
 
@@ -279,7 +281,7 @@ span {
     transition: .5s ease;
 }
 
-.portfolio-box:hover .portfolio-layer{
+.portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
 }
 
@@ -298,7 +300,7 @@ span {
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color) ;
+    background: var(--text-color);
     border-radius: 50%;
 }
 
@@ -328,7 +330,7 @@ span {
 .contact form textarea {
     width: 100%;
     padding: 1.5rem;
-    font-size: 1.6sem;
+    font-size: 1.6rem;
     color: var(--text-color);
     background: var(--second-bg-color);
     border-radius: .8rem;
@@ -359,7 +361,6 @@ span {
 
 .footer-text p {
     font-size: 1.6rem;
-
 }
 
 .footer-iconTop a {
@@ -381,8 +382,7 @@ span {
     color: var(--second-bg-color);
 }
 
-
-/* BREAKPOINTS*/
+/* BREAKPOINTS */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -393,19 +393,12 @@ span {
     .header {
         padding: 2rem 3%;
     }
-
     section {
         padding: 10rem 3% 2rem;
     }
-
     .services {
         padding-bottom: 7rem;
     }
-
-    .services {
-        padding-bottom: 7rem;
-    }
-
     .footer {
         padding: 2rem 3%;
     }
@@ -415,7 +408,6 @@ span {
     #menu-icon {
         display: block;
     }
-
     .navbar {
         position: absolute;
         top: 100%;
@@ -427,51 +419,40 @@ span {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         display: none;
     }
-
     .navbar.active {
         display: block;
     }
-
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
-
     .home {
         flex-direction: column;
     }
-
     .home-content h3 {
         font-size: 2.6rem;
     }
-
     .home-content h1 {
         font-size: 5rem;
     }
-
     .home-img img {
         width: 70vw;
         margin-top: 4rem;
     }
-
     .about {
         flex-direction: column-reverse;
     }
-
     .about img {
         width: 70vw;
         margin-top: 4rem;
     }
-
     .services h2 {
         margin-bottom: 3rem;
     }
-
     .portfolio h2 {
         margin-bottom: 3rem;
     }
-
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -487,7 +468,6 @@ span {
     html {
         font-size: 50%;
     }
-
     .contact form .input-box input {
         width: 100%;
     }
@@ -497,17 +477,14 @@ span {
     .home-img img {
         width: 90vw;
     }
-
     .about-img img {
         width: 90vw;
     }
-
     .footer {
         flex-direction: column-reverse;
     }
-
-    .footer p {
+    .footer-text {
         text-align: center;
-        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 }
